@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Application Form</title>
+    </head>
+    <body>
+        <h1>Student Application Form</h1>
+        <p>Welcome to Knowlege University!</p>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Full name</label>
+                <input type="name" id="name"  placeholder="write here your full name:" ><br><br>
+                <label for="student_id">Student ID</label>
+                <input type="password" id="student_id" placeholder="write here your student ID"><br><br>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob"><br><br>
+                <label for="phone_number">Phone Number</label>
+                <input type="type" id="phone_number" placeholder="your phone number here"><br><br>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+
+
+            </fieldset><br><br>
+            <fieldset>
+                <legend>
+                Academic information
+                </legend>
+                <label for="choice">Academic choice</label>
+                <select id="choice" name="choice" >
+                    <option value="select">Select</option>
+                    <option value="Math">Math</option>
+                    <option value="Computer science">Computer science</option>
+                    <option value="Art">Art</option>
+                    <option value="Physics">Physics</option>
+                    <option value="English litirature">English litirature</option>
+                    <option value="Business">Business</option>
+                    <option value="Engineering">Engineering</option>
+                </select><br><br>
+                <Label for="grade">Grade</Label>
+                <input type="text" id="grade" placeholder="write your grade here"><br><br>
+                <label for="extra">Extracurricular Interests:</label><br>
+                <input type="checkbox" id="extra" name="extra" value="Sports">Sports<br>
+                <input type="checkbox" id="extra" name="extra" value="Music">Music<br>
+                <input type="checkbox" id="extra" name="extra" value="Science Club">Science Club<br>
+                <input type="checkbox" id="extra" name="extra" value=" Debate Team"> Debate Team<br>
+                <input type="checkbox" id="extra" name="extra" value="Reading Club">Reading Club<br><br>
+                <label for="why_our_university">Why our University</label><br>
+            <textarea 
+            id="why_our_university"
+            rows="5"
+            cols="70"
+            placeholder="Explain here why you chose our university."></textarea>
+          
+               
+            
+            </fieldset><br><br>
+        <button>submit application</button>
+        </form>
+    </body>
